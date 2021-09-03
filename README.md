@@ -4,8 +4,7 @@ The values you enter should be (respectively):
 
 **1) Enter Date**
 
-<img src="https://raw.githubusercontent.com/emirhanai/Machine-Learning-Software-Predicting-the-Number-of-COVID-19-Cases-Tests-Deaths-and-Recovers-in-Tur/main/Covid-19-machine-learning-software-Turkey.png
-" alt="Covid-19 Machine Learning Software in Turkey of Emirhan BULUT">
+<img src="https://raw.githubusercontent.com/emirhanai/Machine-Learning-Software-Predicting-the-Number-of-COVID-19-Cases-Tests-Deaths-and-Recovers-in-Tur/main/Covid-19-machine-learning-software-Turkey.png" alt="Covid-19 Machine Learning Software in Turkey of Emirhan BULUT">
 
 
 _Example:_ `predicted_date = model_ml.predict([[date_enter]])`

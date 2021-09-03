@@ -45,7 +45,18 @@ try:
         date_predict = pd.read_csv('date_predict.csv',index_col=None, na_values=None)
         date_detect_algorithm = date_predict.columns[date_enter]
         for x in tolist:
-            print("""Predicted Date: {},\nPrediction Number of Cases Today: {},\nNumber of Tests Today: {},\nNumber of Deaths Today: {},\nNumber of Healing Today: {}""".format(date_detect_algorithm, int(x[0]),int(x[1]),int(x[2]),int(x[3])))
+            print("""\nPredicted Date: {},\nPrediction Number of Cases Today: {},\nNumber of Tests Today: {},\nNumber of Deaths Today: {},\nNumber of Healing Today: {}""".format(date_detect_algorithm, int(x[0]),int(x[1]),int(x[2]),int(x[3])))
         break
 except:
     print("Repeat Try :))")
+
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+plt.scatter(X, y.iloc[:,1:2])
+plt.rcParams.update({'figure.figsize':(10,10), 'figure.dpi':100})
+plt.title('Covid-19 Machine Learning Software - Turkey')
+plt.xlabel('Date')
+plt.ylabel('Cases')
+plt.show()
